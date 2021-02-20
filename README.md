@@ -21,7 +21,7 @@ Current parser capabilites:
 ## BNF for our Mini Language
 
   
-* `'<program> -> <statement><delimiter>|<delimiter>'`
+* `<program> -> <statement><delimiter>|<delimiter>`
 *  `<statement> -> <keyword><var><operator><var><delimiter> | <statement> | `
 *  `<conditional><statement> | <loop><statement>`
 * `<keyword> -> true | false | return | void | main`
