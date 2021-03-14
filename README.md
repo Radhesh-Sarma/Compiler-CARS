@@ -25,7 +25,7 @@ Current parser capabilites:
 *  `<statement> -> <keyword><var><operator><var><delimiter> | <statement> | `
 *  `<conditional><statement> | <loop><statement>`
 * `<keyword> -> true | false | return | void | main`
-* `<datatype> -> int | float | boolean | string | while`
+* `<datatype> -> int | float | boolean | string `
 * `<loop> -> while<statement>{}| for<statement> {} | until<statement> {}`
 * `<conditional> -> if <statement> {} | else <statement> {}`
 * `<var> -> <datatype><id>|<id>`
